@@ -46,7 +46,7 @@ section {
 
 section:nth-of-type(1) {
   border-bottom-left-radius: 80px;
-  background-image: url("./image/hero_bg.png");
+  background-image: url("./images/hero_bg.png");
   background-repeat: no-repeat;
 }
 
