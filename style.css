@@ -25,7 +25,7 @@ header {
   display: block;
   width: 33px;
   height: 3px;
-  margin: 5px auto;
+  margin: 2px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #162ae3;
@@ -85,8 +85,9 @@ h2 {
   gap: 10px;
 }
 
-.self-container a {
+.self-container p {
   text-decoration: none;
+  text-transform: uppercase;
   display: block;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -112,7 +113,11 @@ h2 {
   list-style: none;
 }
 
-.nav-logo h1 {
+a {
+  text-decoration: none;
+}
+
+.nav-logo a {
   width: 76px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -120,5 +125,4 @@ h2 {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
-  text-decoration: none;
 }
