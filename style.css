@@ -181,7 +181,7 @@ p.bold {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
 }
 
 .project-skills {
