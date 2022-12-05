@@ -177,7 +177,7 @@ p.bold {
 }
 
 .project-note {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 ul {
@@ -205,4 +205,72 @@ button {
   background-color: transparent;
   font-size: 17px;
   width: fit-content;
+}
+
+.header-text {
+  max-width: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.para-text {
+  margin: 12px 0;
+}
+
+ul.list-items.skill-items {
+  margin-top: 12px;
+  gap: 24px;
+}
+
+.language {
+  margin-top: 24px;
+  gap: 12px;
+}
+
+.lang-text {
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+  width: 100%;
+  padding: 16px;
+}
+
+.skill-text {
+  font-size: px;
+  color: #253858;
+  font-weight: 500;
+}
+
+span {
+  display: inline-block;
+}
+
+.lang-line {
+  font-weight: 500;
+  color: #5e6c84;
+  transform: rotate(90deg);
+}
+
+.line:nth-of-type(1) {
+  rotate: 90deg;
+}
+
+.lang-list {
+  align-items: center;
+  padding: 24px;
+  gap: 12px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.lang-div {
+  gap: 12px;
+}
+
+.frame-line {
+  color: #bbb;
 }
