@@ -53,7 +53,7 @@ HTML5 and css3 which are the latest version were used in this project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project. Yet to be deployed.
+>Yet to be deployed.
 
 - [Live Demo Link]
 
