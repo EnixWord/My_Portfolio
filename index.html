@@ -337,27 +337,41 @@
         </div>
         <div class="contact-me-form">
           <form>
-            <input
-              type="text"
-              name="username"
-              class="input"
-              placeholder="enter username"
-              required
-            /><br />
-            <input
-              type="email"
-              name="email"
-              class="input"
-              placeholder="enter email"
-              required
-            /><br />
-            <textarea
-              name="message"
-              class="input-textarea"
-              cols="30"
-              placeholder="enter your message here"
-            ></textarea
-            ><br />
+            <div class="username-input">
+              <input
+                type="text"
+                name="username"
+                class="input"
+                placeholder="enter username"
+                maxlength="30"
+                required
+              />
+            </div>
+            <br />
+            <div class="email-input">
+              <input
+                type="email"
+                name="email"
+                class="input"
+                placeholder="enter email"
+                pattern="^[a-zA-Z0-9]+@domain\.[a-zA-z]+$"
+                size="64"
+                maxlength="64"
+                required
+              />
+            </div>
+            <br />
+            <div class="text-area">
+              <textarea
+                name="message"
+                type="text"
+                class="input-textarea"
+                cols="30"
+                maxlength="500"
+                placeholder="enter your message here"
+                required
+              ></textarea>
+            </div>
             <button type="button" value="Get In Touch" class="submit-button">
               Get In Touch
             </button>

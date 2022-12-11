@@ -10,7 +10,7 @@ body {
   max-width: 100%;
   min-height: 100vh;
   background-color: #e5e5e5;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
@@ -233,7 +233,7 @@ button {
 button:hover {
   border: none;
   color: #fff;
-  background: #6070ff;
+  background: #29323c;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
@@ -322,19 +322,21 @@ span {
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: inherit;
   padding-top: 100px;
   justify-content: center;
 }
 
 .contact-me h2 {
-  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  
   color: #fff;
 }
 
@@ -368,17 +370,39 @@ span {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+  padding: 15px 38px 15px 16px;
 }
 
 .input-textarea {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   height: 150px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
   padding: 15px 38px 15px 16px;
 }
 
 .submit-button {
   width: 140px;
   height: 48px;
+  font-weight: 500;
+  line-height: 24px;
   border-radius: 8px;
   background: #fff;
-  padding: 12px 16px 12px 16px;
+  padding: 12px 16px;
+}
+
+.bottom-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px;
 }
