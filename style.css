@@ -139,6 +139,8 @@ a {
 
 .flex {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .column {
@@ -397,4 +399,31 @@ span {
   border-radius: 8px;
   background: #fff;
   margin-bottom: 30px;
+}
+
+.desktop-tools {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link {
+    display: none;
+  }
+
+  .desktop-tools {
+    display: inline;
+  }
+
+  .display-tools, li, a {
+    padding-right: 10px;
+  }
+
+  .project-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .order-2 {
+    order: 2;
+  }
 }
