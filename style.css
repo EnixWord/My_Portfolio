@@ -139,8 +139,6 @@ a {
 
 .flex {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .column {
@@ -317,7 +315,7 @@ span {
   color: #6070ff;
 }
 
-.contact-card {
+.contac-card {
   display: flex;
   flex-direction: column;
   background-image: url(./images/contact-bg.png);
@@ -410,20 +408,100 @@ span {
     display: none;
   }
 
+  .nav-container {
+    padding: 10px 40px;
+  }
+
   .desktop-tools {
     display: inline;
   }
 
-  .display-tools, li, a {
+  .display-tools,
+  li,
+  a {
     padding-right: 10px;
+    height: 0%;
+  }
+
+  .major-container {
+    padding: 40px 50px;
   }
 
   .project-card {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .prject-card-info {
+    padding: 20px;
   }
 
   .order-2 {
     order: 2;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .language {
+    display: block;
+  }
+
+  .lang-text {
+    display: flex;
+  }
+
+  .lang-div {
+    flex-direction: row;
+    padding: 5px 15px;
+  }
+
+  .lang-list {
+    padding: 20px;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5rem 1.25rem 0;
+  }
+
+  .contac-card {
+    grid-column: 1/5;
+    background-size: cover;
+  }
+
+  .contact-me {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .contact-me h2,
+  .contact-me p {
+    grid-column: 2/4;
+  }
+
+  .contact-me-form .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input,
+  .form textarea {
+    width: 447px;
+    border-radius: 0;
   }
 }
