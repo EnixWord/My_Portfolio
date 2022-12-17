@@ -139,6 +139,11 @@ a {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-logo:hover {
+  transform: rotate(90deg);
 }
 
 .flex {
@@ -449,7 +454,7 @@ span {
   .project-card img {
     height: 100%;
     width: 100%;
-    transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s
+    transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
   }
 
   .project-card img:hover {
