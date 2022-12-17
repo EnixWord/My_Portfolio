@@ -319,10 +319,10 @@ span {
   color: #6070ff;
 }
 
-.contac-card {
+.contact-card {
   display: flex;
   flex-direction: column;
-  background-image: url(./images/contact-bg.png);
+  background-image: url(./images/contact-bg2.png);
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -412,6 +412,18 @@ span {
     display: none;
   }
 
+  .major-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/header-bg.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: inherit;
+    justify-content: center;
+    padding: 40px 50px;
+  }
+
   .nav-container {
     padding: 10px 40px;
   }
@@ -425,10 +437,6 @@ span {
   a {
     padding-right: 10px;
     height: 0%;
-  }
-
-  .major-container {
-    padding: 40px 50px;
   }
 
   .project-container {
@@ -489,20 +497,29 @@ span {
     padding-right: 50px;
   }
 
-  .contact-form {
+  section.contact-form {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 5rem 1.25rem 0;
-  }
-
-  .contac-card {
-    grid-column: 1/5;
-    background-size: cover;
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
   }
 
   .contact-me {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(./images/Destop-bg.png);
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: inherit;
+    border-top-left-radius: 80px;
   }
 
   .contact-me h2,

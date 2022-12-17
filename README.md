@@ -30,20 +30,17 @@
 
 > Describe your project in 1 or 2 sentences.
 This is a My Portfolio  project.
-**[your_project__name]** is My Portfolio
+My_Portfolio is a mobile and desktop responsive page.
 
 ## 🛠 Built With <a name="built-with">Html, css</a>
 
 ### Tech Stack <a name="tech-stack">HTML5, CSS3</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-HTML5 and css3 which are the latest version were used in this project.
+HTML5 and css3 which the latest versions were used in this project.
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[key_feature_1]** My Portfolio built with HTML and CSS
 - **[key_feature_2]** Responsive mobile design portfolio
@@ -61,7 +58,6 @@ HTML5 and css3 which are the latest version were used in this project.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
  Get your pc.
  Clone this project to your local machine. 
 
