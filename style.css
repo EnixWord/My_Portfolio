@@ -449,6 +449,11 @@ span {
   .project-card img {
     height: 100%;
     width: 100%;
+    transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s
+  }
+
+  .project-card img:hover {
+    transform: scale(1.1, 1.1);
   }
 
   .prject-card-info {
