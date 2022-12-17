@@ -231,7 +231,7 @@ button {
   background-color: transparent;
   font-size: 17px;
   width: fit-content;
-  transition: all 0.3s ease-in-out;
+  transition: all cubic-bezier(0.08, 0.82, 0.48, 1.28) 3s;
 }
 
 button:hover {
