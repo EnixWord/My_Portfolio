@@ -49,11 +49,15 @@ section {
 }
 
 .major-container {
+  display: flex;
+  flex-direction: column;
   border-bottom-left-radius: 80px;
   background-image: url("./images/hero_bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: inherit;
+  background-size: 100% 100%;
+  padding-top: 70px;
+  justify-content: center;
 }
 
 .section-head {
@@ -318,7 +322,7 @@ span {
 .contact-card {
   display: flex;
   flex-direction: column;
-  background-image: url(./images/contact-bg.png);
+  background-image: url(./images/contact-bg2.png);
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -397,4 +401,156 @@ span {
   border-radius: 8px;
   background: #fff;
   margin-bottom: 30px;
+}
+
+.desktop-tools {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link {
+    display: none;
+  }
+
+  .major-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/header-bg.png);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding: 50px 50px;
+  }
+
+  .minor-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .section-head h1 {
+    width: 40%;
+  }
+
+  .section-head p {
+    width: 95%;
+  }
+
+  .nav-container {
+    padding: 10px 40px;
+  }
+
+  .desktop-tools {
+    display: inline;
+  }
+
+  .display-tools,
+  li,
+  a {
+    padding-right: 10px;
+    height: 0%;
+  }
+
+  .project-container {
+    gap: 0;
+  }
+
+  .project-section {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .project-card {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .prject-card-info {
+    padding: 20px;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .language {
+    display: block;
+  }
+
+  .lang-text {
+    display: flex;
+  }
+
+  .lang-div {
+    flex-direction: row;
+    padding: 5px 15px;
+  }
+
+  .lang-list {
+    padding: 20px;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+  }
+
+  .about {
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+
+  section.contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .contact-me {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(./images/Destop-bg.png);
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: inherit;
+    border-top-left-radius: 80px;
+  }
+
+  .contact-me h2,
+  .contact-me p {
+    grid-column: 2/4;
+    padding: 0 20px;
+  }
+
+  .contact-me-form .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input,
+  .form textarea {
+    width: 447px;
+    border-radius: 0;
+  }
 }
