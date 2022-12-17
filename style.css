@@ -504,7 +504,7 @@ span {
   .contact-me h2,
   .contact-me p {
     grid-column: 2/4;
-    padding: 0 35px;
+    padding: 0 20px;
   }
 
   .contact-me-form .form {
