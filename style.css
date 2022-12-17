@@ -416,12 +416,25 @@ span {
     display: flex;
     flex-direction: column;
     background-image: url(./images/header-bg.png);
-    background-color: #fff;
+    height: auto;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: inherit;
+    background-size: cover;
     justify-content: center;
-    padding: 40px 50px;
+    padding: 50px 50px;
+  }
+
+  .minor-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .section-head h1 {
+    width: 40%;
+  }
+
+  .section-head p {
+    width: 95%;
   }
 
   .nav-container {
