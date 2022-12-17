@@ -427,8 +427,8 @@ span {
     padding: 40px 50px;
   }
 
-  .project-container{
-    gap: 0px;
+  .project-container {
+    gap: 0;
   }
 
   .project-section {
@@ -481,8 +481,8 @@ span {
   }
 
   .about {
- padding-left: 60px;
- padding-right: 50px;
+    padding-left: 60px;
+    padding-right: 50px;
   }
 
   .contact-form {
