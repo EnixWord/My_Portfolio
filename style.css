@@ -516,6 +516,14 @@ span {
     padding: 0 20px;
   }
 
+  .contact-me p {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .contact-me p:hover {
+    transform: translate(42px, 8px);
+  }
+
   .contact-me-form .form {
     display: flex;
     flex-direction: column;
