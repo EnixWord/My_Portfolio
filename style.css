@@ -427,6 +427,15 @@ span {
     padding: 40px 50px;
   }
 
+  .project-container{
+    gap: 0px;
+  }
+
+  .project-section {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
   .project-card {
     display: grid;
     padding: 10px;
@@ -471,6 +480,11 @@ span {
     height: 120px;
   }
 
+  .about {
+ padding-left: 60px;
+ padding-right: 50px;
+  }
+
   .contact-form {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -490,6 +504,7 @@ span {
   .contact-me h2,
   .contact-me p {
     grid-column: 2/4;
+    padding: 0 35px;
   }
 
   .contact-me-form .form {

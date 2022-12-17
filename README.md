@@ -26,7 +26,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [your_project_name] <a name="My Portfolio">My Portfolio</a>
+# 📖 [My_Portfolio] <a name="My Portfolio">My Portfolio</a>
 
 > Describe your project in 1 or 2 sentences.
 This is a My Portfolio  project.
@@ -47,7 +47,7 @@ HTML5 and css3 which are the latest version were used in this project.
 
 - **[key_feature_1]** My Portfolio built with HTML and CSS
 - **[key_feature_2]** Responsive mobile design portfolio
-- **[key_feature_3]**
+- **[key_feature_3]** Responsive desktop design portfolio
 
 <!-- LIVE DEMO -->
 
@@ -72,13 +72,6 @@ Basic knownledge of computer.
 
 In order to run this project you need:
 live server.
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -89,18 +82,6 @@ https://github.com/EnixWord/MY_PORTFOLIO.git
 
 Install this project with:
 cd to My Portfolio.
-
-### Usage
-
-To run the project, execute the following command:
-live server
-<!--
-Example command:
-
-```sh
-  
-```
---->
 
 ### Run tests
 
@@ -151,10 +132,6 @@ If you like this project give a ⭐️.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank God Almighty and Microverse for the opportunity and motivation.
 
 <!-- FAQ (optional) -->
@@ -164,42 +141,9 @@ I would like to thank God Almighty and Microverse for the opportunity and motiva
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
 
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
- My Portfolio Project
-
-> Description of the project.
-This is an HTML & CSS My Portfolio project
-
-## Built With
-- Major languages HTML, CSS
-
-[Live Demo Link](https://github.com/EnixWord/Hello_Microverse)
-
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-Web Browser
-Code Editor
-### Setup
-~~~bash
-git clone https://github.com/EnixWord/Hello_Microverse
-cd hello-world
-~~~
 
 👤 **Author**
 
