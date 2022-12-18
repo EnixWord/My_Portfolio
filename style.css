@@ -139,6 +139,11 @@ a {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.nav-logo:hover {
+  transform: rotate(91deg);
 }
 
 .flex {
@@ -231,7 +236,7 @@ button {
   background-color: transparent;
   font-size: 17px;
   width: fit-content;
-  transition: all 0.3s ease-in-out;
+  transition: all cubic-bezier(0.08, 0.82, 0.48, 1.27) 3s;
 }
 
 button:hover {
@@ -470,6 +475,11 @@ span {
   .project-card img {
     height: 100%;
     width: 100%;
+    transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+  }
+
+  .project-card img:hover {
+    transform: scale(1.1, 1.1);
   }
 
   .prject-card-info {
@@ -539,6 +549,14 @@ span {
   .contact-me p {
     grid-column: 2/4;
     padding: 0 20px;
+  }
+
+  .contact-me p {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .contact-me p:hover {
+    transform: translate(42px, 8px);
   }
 
   .contact-me-form .form {
