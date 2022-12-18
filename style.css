@@ -139,11 +139,11 @@ a {
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .nav-logo:hover {
-  transform: rotate(90deg);
+  transform: rotate(91deg);
 }
 
 .flex {
@@ -236,7 +236,7 @@ button {
   background-color: transparent;
   font-size: 17px;
   width: fit-content;
-  transition: all cubic-bezier(0.08, 0.82, 0.48, 1.28) 3s;
+  transition: all cubic-bezier(0.08, 0.82, 0.48, 1.27) 3s;
 }
 
 button:hover {
