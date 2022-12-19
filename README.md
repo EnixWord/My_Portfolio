@@ -49,9 +49,7 @@ HTML5 and css3 which the latest versions were used in this project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project. Yet to be deployed.
-
-- [Live Demo Link]
+- [Live Demo Link](https://enixword.github.io/My_Portfolio/)
 
 <!-- GETTING STARTED -->
 
