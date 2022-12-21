@@ -247,6 +247,12 @@ button:hover {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
+.submit-button:hover {
+  border: none;
+  color: #c7d4f5;
+  background: #5a5a5a;
+}
+
 button:active {
   border: none;
   color: #fff;
