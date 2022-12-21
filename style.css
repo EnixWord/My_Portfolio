@@ -231,7 +231,7 @@ ul {
 button {
   margin-top: 24px;
   padding: 12px;
-  color: #396df2;
+  color: #003bd1;
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: transparent;
@@ -243,7 +243,7 @@ button {
 button:hover {
   border: none;
   color: #fff;
-  background: #29323c;
+  background: #8c8c8c;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
