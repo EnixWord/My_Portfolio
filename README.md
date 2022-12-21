@@ -27,7 +27,6 @@
 
 # 📖 [My_Portfolio] <a name="My Portfolio">My Portfolio</a>
 
-> Describe your project in 1 or 2 sentences.
 This is a My Portfolio  project.
 My_Portfolio is a mobile and desktop responsive page.
 
@@ -98,6 +97,11 @@ github pages.
 - Twitter: [@StevMicroverse](https://twitter.com/StevMicroverse)
 - LinkedIn: [Stephen Okhaishie](https://www.linkedin.com/in/stephen-okhaishie-3baa19255/)
 
+👤 **Author2**
+
+- GitHub [@kayembajonathan] (https://github.com/kayembajonathan)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 - **[future_feature_1]** In the future I will add work section.
@@ -118,8 +122,6 @@ Feel free to check the [issues page](https://github.com/EnixWord/MY_PORTFOLIO/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project give a ⭐️.
 
 
@@ -131,7 +133,6 @@ I would like to thank God Almighty and Microverse for the opportunity and motiva
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 
 <!-- LICENSE -->

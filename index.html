@@ -261,11 +261,11 @@
                   <p class="skill-text">JavaScript</p>
                 </li>
                 <li class="lang-list flex">
-                  <img src="./images/html.png" alt="js logo" />
+                  <img src="./images/html.png" alt="html logo" />
                   <p class="skill-text">HTML</p>
                 </li>
                 <li class="lang-list flex">
-                  <img src="./images/css.png" alt="js logo" />
+                  <img src="./images/css.png" alt="css logo" />
                   <p class="skill-text">CSS</p>
                 </li>
               </ul>
@@ -309,15 +309,18 @@
       <div class="contact-me-form">
         <form class="form" action="https://formspree.io/f/mvoyejav" method="post">
           <div class="username-input">
+            <label hidden id="mylabel" for="username">Username</label>
             <input type="text" name="username" class="input" placeholder="enter username" maxlength="30" required />
           </div>
           <br />
           <div class="email-input">
+            <label hidden id="mylabel" for="email">Email</label>
             <input type="email" name="email" class="input" placeholder="enter email" size="64" maxlength="64"
               required />
           </div>
           <br />
           <div class="text-area">
+            <label hidden id="mylabel" for="message">Message</label>
             <textarea name="message" type="text" class="input-textarea" cols="30" maxlength="500"
               placeholder="enter your message here" required></textarea>
           </div>

@@ -108,7 +108,7 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #142cff;
   height: 24px;
   flex: none;
 }
@@ -138,7 +138,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #051eff;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -196,7 +196,7 @@ p.bold {
 
 .project-meta p {
   font-size: 13px;
-  color: #7a869a;
+  color: #4d5866;
   padding: 8px 0;
 }
 
@@ -225,12 +225,13 @@ ul {
   border-radius: 8px;
   background-color: #ebebff;
   font-size: 12px;
+  color: #0018f5;
 }
 
 button {
   margin-top: 24px;
   padding: 12px;
-  color: #396df2;
+  color: #003bd1;
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: transparent;
@@ -242,7 +243,7 @@ button {
 button:hover {
   border: none;
   color: #fff;
-  background: #29323c;
+  background: #2b2b2b;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
@@ -358,6 +359,7 @@ span {
   color: #ebebff;
   margin: 15px;
   padding: 10;
+  background-color: #1a30ff;
 }
 
 .contact-me-form {
