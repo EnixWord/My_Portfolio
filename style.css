@@ -16,8 +16,6 @@ body {
   color: #344563;
 }
 
-/* mobile-menu code added here */
-
 @media screen and (max-height: 768px) {
   .overlay a {
     font-size: 20px;
@@ -100,8 +98,6 @@ a {
   right: 25px;
   font-size: 30px;
 }
-
-/* end of mobile-menu */
 
 header {
   background-color: #fff;
