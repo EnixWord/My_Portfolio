@@ -12,6 +12,18 @@
 
 <body>
   <div class="intro-card">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" 
+         class="closebtn"
+         onclick="closeNav()">×</a>
+      
+      <div class="overlay-content">
+          <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
+          <a href="#About" class="about-text" onclick="closeNav()">About</a>
+          <a href="#Contact" onclick="closeNav()" >Contact</a>
+      
+      </div>
+  </div>
     <header>
       <div class="nav-container">
         <div class="nav-logo">
@@ -30,13 +42,14 @@
             </li>
           </ul>
         </div>
+        
 
           <nav class="nav-link">
             
             <div class="nav-menu">
               
               <div class="ambuger-menu">
-                
+               <a href="#" onclick="openNav()"> <img src="/images/icon-menu.png" alt="" srcset=""></a>
               </div>
             </div>
           </nav>
@@ -253,7 +266,7 @@
         </div>
         <button type="button">Get my Resume</button>
       </div>
-      <div class="language flex column">
+      <div class="language flex column" id="About">
         <ul>
           <li>
             <div class="lang flex column">
