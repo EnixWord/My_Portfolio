@@ -16,14 +16,6 @@ body {
   color: #344563;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* mobile-menu code added here */
-
-=======
->>>>>>> mobile-menu
-=======
->>>>>>> dce4b211 (Searching linter erro)
 @media screen and (max-height: 768px) {
   .overlay a {
     font-size: 20px;
@@ -107,14 +99,6 @@ a {
   font-size: 30px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* end of mobile-menu */
-
-=======
->>>>>>> mobile-menu
-=======
->>>>>>> dce4b211 (Searching linter erro)
 header {
   background-color: #fff;
 }
@@ -224,21 +208,6 @@ h2 {
 
 .list-items li {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.nav-logo a {
-  width: 76px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #6070ff;
-  transition: transform 0.2s ease-in-out;
 }
 
 .nav-logo:hover {
@@ -549,15 +518,9 @@ span {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     line-height: 52px;
-=======
     line-height: 51px;
->>>>>>> mobile-menu
-=======
     line-height: 51px;
->>>>>>> def5a7e6 (Try to fix github flow)
     color: #091e42;
   }
 
