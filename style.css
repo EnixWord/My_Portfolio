@@ -230,6 +230,10 @@ h2 {
   border-bottom-left-radius: 80px;
 }
 
+.desk-text {
+  display: none;
+}
+
 .project-section {
   background-color: #e5e5e5;
 }
@@ -508,6 +512,20 @@ span {
     width: 90%;
     margin: 20px auto;
     padding: 10px;
+  }
+
+  .desk-text {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;
+  }
+
+  .project-title-mobile {
+    display: none;
   }
 
   .section-head h1 {
