@@ -31,8 +31,13 @@ body {
 
 .overlay {
   height: 100%;
+  width: 0%;
   position: fixed;
+  top: -20px;
+  z-index: 10;
   background: #6070FF;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
   font-family: 'poppins',sans-serif;
   overflow-x: hidden;
   transition: 0.5s;
