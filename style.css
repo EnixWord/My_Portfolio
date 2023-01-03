@@ -33,7 +33,7 @@ body {
   width: 0%;
   position: fixed;
   top: -20px;
-  z-index: 10;
+  z-index: 15;
   background: #6070ff;
   backdrop-filter: blur(10px);
   mix-blend-mode: multiply;
@@ -82,7 +82,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #142cff;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -118,7 +118,11 @@ header {
 }
 
 .nav-container {
+  position: fixed;
+  top: 0px;
+  z-index: 10;
   width: 100%;
+  background-color: #fbeaeb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -401,6 +405,7 @@ span {
   background-size: 100% 100%;
   background-position: inherit;
   padding-top: 100px;
+  margin-bottom: 0;
   justify-content: center;
 }
 
@@ -541,6 +546,10 @@ span {
 
   .desktop-tools {
     display: inline;
+  }
+
+  .desktop-tools li a {
+    color: #142cff;
   }
 
   .display-tools,
