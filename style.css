@@ -16,8 +16,11 @@ body {
   color: #344563;
 }
 
+<<<<<<< HEAD
 /* mobile-menu code added here */
 
+=======
+>>>>>>> mobile-menu
 @media screen and (max-height: 768px) {
   .overlay a {
     font-size: 20px;
@@ -101,8 +104,11 @@ a {
   font-size: 30px;
 }
 
+<<<<<<< HEAD
 /* end of mobile-menu */
 
+=======
+>>>>>>> mobile-menu
 header {
   background-color: #fff;
 }
@@ -537,7 +543,11 @@ span {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
+<<<<<<< HEAD
     line-height: 52px;
+=======
+    line-height: 51px;
+>>>>>>> mobile-menu
     color: #091e42;
   }
 
