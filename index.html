@@ -5,12 +5,22 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="index.js"></script>
   <link rel="stylesheet" href="style.css" />
   <title>Stev's Portfolio</title>
 </head>
 
 <body>
   <div class="intro-card">
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+      <div class="overlay-content">
+        <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="#About" class="about-text" onclick="closeNav()">About</a>
+        <a href="#Contact" onclick="closeNav()">Contact</a>
+      </div>
+    </div>
     <header>
       <div class="nav-container">
         <div class="nav-logo">
@@ -19,78 +29,80 @@
         <div class="desktop-tools">
           <ul class="flex">
             <li>
-              <a href="#">Portfolio</a>
+              <a href="#Portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#About">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
 
+
         <nav class="nav-link">
+
           <div class="nav-menu">
+
             <div class="ambuger-menu">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
+              <a href="#" onclick="openNav()"> <img src="./images/icon-menu.png" alt="" srcset=""></a>
             </div>
           </div>
         </nav>
       </div>
     </header>
-    <main>
-      <section class="first-section">
-        <div class="major-container">
-          <div class="minor-container">
-            <div class="section-head">
-              <h1>I'm Stephen Glad to see you</h1>
-              <p>
-                I am a Software developer! I can help you build a product,
-                feature or website. Look through some of my works and
-                experience! if you like what you see and have a project you
-                need coded don't hesitate to contact me.
-              </p>
-            </div>
-            <div class="self-container">
-              <p>Let's Connect</p>
-              <div class="list-nav">
-                <ul class="list-items">
-                  <li>
-                    <a href="">
-                      <img src="./images/twitter.png" alt="my social handle images" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="./images/Linkedin-icon.svg" alt="my social handle images" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="./images/medium.png" alt="my social handle images" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      <img src="./images/github.png" alt="my social handle images" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href=""><img src="./images/angellist.png" alt="my social handle images" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
+  </div>
+  <main>
+    <section class="first-section">
+      <div class="major-container">
+        <div class="minor-container">
+          <div class="section-head">
+            <h1>I'm Stephen Glad to see you</h1>
+            <p>
+              I am a Software developer! I can help you build a product,
+              feature or website. Look through some of my works and
+              experience! if you like what you see and have a project you
+              need coded don't hesitate to contact me.
+            </p>
+          </div>
+          <div class="self-container">
+            <p>Let's Connect</p>
+            <div class="list-nav">
+              <ul class="list-items">
+                <li>
+                  <a href="">
+                    <img src="./images/twitter.png" alt="my social handle images" />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="./images/Linkedin-icon.svg" alt="my social handle images" />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="./images/medium.png" alt="my social handle images" />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img src="./images/github.png" alt="my social handle images" />
+                  </a>
+                </li>
+                <li>
+                  <a href=""><img src="./images/angellist.png" alt="my social handle images" />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
   </div>
-  <section class="project-section">
+  <section class="project-section" id="Portfolio">
     <div class="project-container">
       <div class="project-card flex column">
         <img src="./images/Snapshoot Portfolio.svg" alt="project card image" />
@@ -123,7 +135,8 @@
       <div class="project-card flex column">
         <img class="order-2" src="./images/Snapshoot Portfolio (1).svg" alt="project card image" />
         <div class="prject-card-info flex column">
-          <h2 class="project-title">Tonic</h2>
+          <h2 class="project-title-mobile">Tonic</h2>
+          <h2 class="desk-text">Multi-Post Stories</h2>
           <div class="project-meta flex">
             <p class="bold">Canopy</p>
             <div class="round"></div>
@@ -151,7 +164,8 @@
       <div class="project-card flex">
         <img src="./images/Snapshoot Portfolio (2).svg" alt="project card image" />
         <div class="prject-card-info flex column">
-          <h2 class="project-title">Tonic</h2>
+          <h2 class="project-title-mobile">Tonic</h2>
+          <h2 class="desk-text">Facebook 360</h2>
           <div class="project-meta flex">
             <p class="bold">Canopy</p>
             <div class="round"></div>
@@ -179,7 +193,8 @@
       <div class="project-card flex">
         <img class="order-2" src="./images/Snapshoot Portfolio (3).svg" alt="project card image" />
         <div class="prject-card-info flex column">
-          <h2 class="project-title">Tonic</h2>
+          <h2 class="project-title-mobile">Tonic</h2>
+          <h2 class="desk-text">Uber Navigation</h2>
           <div class="project-meta flex">
             <p class="bold">Canopy</p>
             <div class="round"></div>
@@ -248,7 +263,7 @@
         </div>
         <button type="button">Get my Resume</button>
       </div>
-      <div class="language flex column">
+      <div class="language flex column" id="About">
         <ul>
           <li>
             <div class="lang flex column">
@@ -295,7 +310,7 @@
       </div>
     </div>
   </section>
-  <section class="contact-form">
+  <section class="contact-form" id="Contact">
     <div class="contact-card">
       <div class="contact-me">
         <h2>contact me</h2>
@@ -307,7 +322,7 @@
         </p>
       </div>
       <div class="contact-me-form">
-        <form class="form" action="https://formspree.io/f/mvoyejav" method="post">
+        <form class="form" action="https://formspree.io/f/myyayezp" method="post">
           <div class="username-input">
             <label hidden id="mylabel" for="username">Username</label>
             <input type="text" name="username" class="input" placeholder="enter username" maxlength="30" required />
@@ -331,6 +346,8 @@
       </div>
     </div>
   </section>
+
 </body>
+
 
 </html>

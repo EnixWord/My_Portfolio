@@ -16,6 +16,88 @@ body {
   color: #344563;
 }
 
+@media screen and (max-width: 768px) {
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    font-size: 15px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.overlay {
+  height: 100vh;
+  width: 0%;
+  position: fixed;
+  top: -20px;
+  z-index: 15;
+  background: #6070ff;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
+  font-family: 'poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.overlay-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  right: 80px;
+  width: 100%;
+  margin-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.about-text {
+  position: relative;
+  right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.nav-logo a {
+  width: 76px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #142cff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 25px;
+  font-size: 30px;
+}
+
 header {
   background-color: #fff;
 }
@@ -36,7 +118,11 @@ header {
 }
 
 .nav-container {
+  position: fixed;
+  top: 0;
+  z-index: 10;
   width: 100%;
+  background-color: #fbeaeb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,21 +211,6 @@ h2 {
 
 .list-items li {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.nav-logo a {
-  width: 76px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  color: #051eff;
-  transition: transform 0.2s ease-in-out;
 }
 
 .nav-logo:hover {
@@ -334,6 +405,7 @@ span {
   background-size: 100% 100%;
   background-position: inherit;
   padding-top: 100px;
+  margin-bottom: 0;
   justify-content: center;
 }
 
@@ -414,8 +486,16 @@ span {
   display: none;
 }
 
+.desk-text {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .nav-link {
+    display: none;
+  }
+
+  .toggle-button {
     display: none;
   }
 
@@ -434,6 +514,22 @@ span {
     width: 90%;
     margin: 20px auto;
     padding: 10px;
+  }
+
+  .desk-text {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    line-height: 51px;
+    line-height: 51px;
+    color: #091e42;
+  }
+
+  .project-title-mobile {
+    display: none;
   }
 
   .section-head h1 {
@@ -457,6 +553,10 @@ span {
   a {
     padding-right: 10px;
     height: 0%;
+  }
+
+  .desktop-tools li a {
+    color: #142cff;
   }
 
   .project-container {
