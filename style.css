@@ -17,10 +17,13 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* mobile-menu code added here */
 
 =======
 >>>>>>> mobile-menu
+=======
+>>>>>>> dce4b211 (Searching linter erro)
 @media screen and (max-height: 768px) {
   .overlay a {
     font-size: 20px;
@@ -105,10 +108,13 @@ a {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* end of mobile-menu */
 
 =======
 >>>>>>> mobile-menu
+=======
+>>>>>>> dce4b211 (Searching linter erro)
 header {
   background-color: #fff;
 }
