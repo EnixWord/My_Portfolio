@@ -119,7 +119,7 @@ header {
 
 .nav-container {
   position: fixed;
-  top: 0px;
+  top: 0;
   z-index: 10;
   width: 100%;
   background-color: #fbeaeb;
@@ -548,15 +548,15 @@ span {
     display: inline;
   }
 
-  .desktop-tools li a {
-    color: #142cff;
-  }
-
   .display-tools,
   li,
   a {
     padding-right: 10px;
     height: 0%;
+  }
+
+  .desktop-tools li a {
+    color: #142cff;
   }
 
   .project-container {
