@@ -6,41 +6,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="index.js"></script>
   <title>Stev's Portfolio</title>
 </head>
 
 <body>
   <div class="intro-card">
-    <header>
-      <div class="nav-container">
-        <div class="nav-logo">
-          <a href="#">My Logo</a>
-        </div>
-        <div class="desktop-tools">
-          <ul class="flex">
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        <nav class="nav-link">
-          <div class="nav-menu">
-            <div class="ambuger-menu">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
+    <div class="dropdown">
+      <header>
+        <div class="nav-container">
+          <div class="nav-logo">
+            <a href="#">My Logo</a>
           </div>
-        </nav>
-      </div>
-    </header>
+          <div class="desktop-tools">
+            <ul class="flex">
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <nav class="nav-link">
+            <div class="nav-menu">
+              <div class="ambuger-menu">
+                <a href="#" class="toggle-button" onclick="openNav()">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+              </div>
+              <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" 
+                   class="closebtn"
+                   onclick="closeNav()">×
+                </a>
+                
+                <div class="overlay-content">
+                    <a href="#">Portfolio</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
     <main>
       <section class="first-section">
         <div class="major-container">
