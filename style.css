@@ -245,10 +245,6 @@ a {
   border-bottom-left-radius: 80px;
 }
 
-.desk-text {
-  display: none;
-}
-
 .project-section {
   background-color: #e5e5e5;
 }
@@ -502,6 +498,10 @@ span {
 }
 
 .desktop-tools {
+  display: none;
+}
+
+.desk-text {
   display: none;
 }
 
