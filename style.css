@@ -21,7 +21,7 @@ body {
     background: #fff;
     border: 1px solid #ebecf0;
     width: 90%;
-    top: 0%;
+    top: 150%;
     position: absolute;
     z-index: 10;
     left: 5%;
@@ -30,13 +30,15 @@ body {
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
   }
+
   .round-popup {
     width: 8px;
     height: 8px;
     background-color: #c1c7d0;
     border-radius: 50%;
-    margin-top: 6px;
+    margin-top: 3px;
   }
+
   .popup-content {
     font-family: "Poppins", sans-serif;
   }
@@ -54,7 +56,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 44px;
     color: #091e42;
   }
@@ -75,15 +77,37 @@ body {
     font-size: 13px;
     line-height: 16px;
   }
+
+  .popup-button-action {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .source-code a {
+    position: relative;
+    left: -15px;
+  }
+
+  .deploy-icon img {
+    position: relative;
+    left: -15px;
+  }
+
   .popup-button-action button {
+    display: flex;
     background: #fff;
-    width: 136px;
-     height: 48px;
     padding: 8px 12px;
     border: 1px solid #396df2;
     border-radius: 8px;
+    margin-bottom: 30px;
   }
-  
 
   .canopy-sm-tag {
     color: #344563;
@@ -108,8 +132,6 @@ body {
   .buttom-content-container {
     display: flex;
     flex-direction: column;
-
-    /* border: 1px solid red; */
     width: 311px;
     margin-left: 5%;
     margin-top: -1%;
@@ -119,21 +141,46 @@ body {
     display: none;
   }
 
-  
-  .live-version ,.source-code{
+  .paragraph-description-mobile {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .popup-tags .first li {
+    display: inline-block;
+    padding: 4px 12px;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6070ff;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .popup-tags .second li {
+    display: none;
+  }
+
+  .live-version,
+  .source-code {
     width: 90px;
-  height: 20px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 20px;
-  
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
   }
-  .github-img , .deploy-icon{
+
+  .github-img,
+  .deploy-icon {
     width: 18px;
-  height: 18px;
+    height: 18px;
   }
+
   .overlay a {
     font-size: 20px;
   }
@@ -619,9 +666,8 @@ span {
     border: 1px solid #ebecf0;
     position: absolute;
     z-index: 50;
-    left: 20%;
-    top: 77;
-    Width: 1156px;
+    right: 4%;
+    width: 1156px;
     height: 1163px;
     display: none;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -635,14 +681,15 @@ span {
     border-radius: 50%;
     margin-top: 6px;
   }
+
   .popup-clsbtn {
     position: relative;
-   left: 10px;
-    font-weight:400;
-    font-size: 20px;
-    color: #67798E;
+    left: 20px;
+    font-weight: 40;
+    font-size: 27px;
+    color: #67798e;
     width: 30px;
-   height: 14px;
+    height: 14px;
   }
 
   .popup-content {
@@ -697,10 +744,13 @@ span {
     color: #7a869a;
   }
 
-  .popup-image-container {
-    width: 1108px;
+  .popup-image-container img {
+    width: 1056px;
     height: 586px;
     margin-left: 24px;
+    position: relative;
+    left: -24px;
+    transform: none;
   }
 
   .buttom-content-container {
@@ -712,9 +762,6 @@ span {
     flex-direction: row;
   }
 
-  /* .paragraph-description-mobile{
-  display: none;
-} */
   .paragraph-description-desktop {
     width: 778px;
     height: 382px;
@@ -801,25 +848,29 @@ span {
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
-    color: #396DF2;
+    color: #396df2;
   }
-.live-version ,.source-code{
-  width: 90px;
-height: 20px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
 
-}
-.github-img , .deploy-icon{
-  width: 18px;
-height: 18px;
-}
-.paragraph-description-mobile{
-  display: none;
-}
+  .live-version,
+  .source-code {
+    width: 90px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .github-img,
+  .deploy-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .paragraph-description-mobile {
+    display: none;
+  }
 
   .nav-link {
     display: none;
@@ -903,9 +954,9 @@ height: 18px;
     transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
   }
 
-  /* .project-card img:hover {
+  .project-card img:hover {
     transform: scale(1.1, 1.1);
-  } */
+  }
 
   .prject-card-info {
     padding: 20px;
