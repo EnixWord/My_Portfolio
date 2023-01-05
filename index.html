@@ -130,7 +130,7 @@
               <li>javascript</li>
             </ul>
           </div>
-          <button> <a href="" onclick="Display()"> See Project</a></button>
+          <button onclick="Display()"> See Project</button>
         </div>
         <!-------------------------------------------POPUP SECTION---------------------------------------------------->
         <div class="popup-container block-popup">
@@ -146,12 +146,12 @@
           <ul class="small-tags">
             <li class="canopy-sm-tag">CANOPY</li>
             <li>
-              <div class="round"></div>
+              <div class="round-popup"></div>
               <!-- <img src="./images/Counter.png" alt="counter tags" role="button" class="counter" /> -->
             </li>
             <li class="second-sm-tag">Back End Dev</li>
             <li>
-              <div class="round"></div>
+              <div class="round-popup"></div>
               <!-- <img src="./images/Counter.png" alt="counter tags" role="button" class="counter" /> -->
             </li>
             <li class="second-sm-tag">2015</li>
@@ -211,12 +211,21 @@
               </div>
               <div class="popup-button-action">
                 <button type="submit">
-                  <a href="">See live
-                    <img src="./images/Icon deploy.png" alt="deployment icon" class="deploy-icon-popup" /></a>
+                  <div class="source-code">
+                    <a href="">See live </a>
+                  </div>
+                  <div class="deploy-icon">
+                    <img src="./images/deploy.svg" alt="deployment icon" class="deploy-icon-popup" />
+                  </div>
                 </button>
-                <button type="submit">
-                  <a href="">See Source</a>
-                  <img src="./images/Vec-github.png" alt="github icon" class="github-icon-popup" />
+                <button class="submit-github">
+                  <div class="live-version">
+                    <a href="">See Source </a>
+                  </div>
+                  <div class="github-img">
+                    <img src="./images/github-popup.svg" alt="github icon" class="github-icon-popup" />
+                  </div>
+                  
                 </button>
               </div>
             </div>
