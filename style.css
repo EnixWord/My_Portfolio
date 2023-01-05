@@ -511,6 +511,13 @@ span {
     border-radius: 16px;
   }
 
+  .popup-clsbtn {
+    position: relative;
+    right: 150px;
+    font-weight: 800;
+    font-size: larger;
+  }
+
   .popup-content {
     font-family: "Poppins", sans-serif;
   }
@@ -755,9 +762,9 @@ span {
     transition: transform cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
   }
 
-  .project-card img:hover {
+  /* .project-card img:hover {
     transform: scale(1.1, 1.1);
-  }
+  } */
 
   .prject-card-info {
     padding: 20px;
