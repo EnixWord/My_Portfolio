@@ -22,12 +22,17 @@ function Display() {
 function closePopup() {
   modalPopup.style.display = 'none';
 }
+
 // ------------------contact form validation -----------------
+
 function validateEmail() {
   const email = document.getElementById('email').value;
   const error = document.getElementById('errorMessage');
   if (email.toLowerCase() !== email) {
     error.innerHTML = 'Please enter your email in lowercase';
+    error.style.display = 'block';
+    error.style.color = '#fff';
+    error.style.fontSize = 'larger';
     return false;
   }
   document.getElementById('errorMessage').innerHTML = '';
