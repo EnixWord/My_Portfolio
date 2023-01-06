@@ -16,6 +16,10 @@ body {
   color: #344563;
 }
 
+.error-message {
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .popup-container {
     background: #fff;
