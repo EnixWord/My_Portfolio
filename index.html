@@ -423,7 +423,7 @@
         </p>
       </div>
       <div class="contact-me-form">
-        <form class="form" action="https://formspree.io/f/myyayezp" method="post">
+        <form class="form" action="https://formspree.io/f/myyayezp" method="post"   onsubmit="return validateEmail()">
           <div class="username-input">
             <label hidden id="mylabel" for="username">Username</label>
             <input type="text" name="username" class="input" placeholder="enter username" maxlength="30" required />
@@ -431,7 +431,7 @@
           <br />
           <div class="email-input">
             <label hidden id="mylabel" for="email">Email</label>
-            <input type="email" name="email" class="input" placeholder="enter email" size="64" maxlength="64"
+            <input type="email" name="email" class="input" placeholder="enter email" id="email" size="64" maxlength="64"
               required />
           </div>
           <br />
@@ -440,9 +440,13 @@
             <textarea name="message" type="text" class="input-textarea" cols="30" maxlength="500"
               placeholder="enter your message here" required></textarea>
           </div>
-          <button type="submit" value="Get In Touch" class="submit-button">
+          <div id="errorMessage">
+
+          </div>
+          <button type="submit" value="Get In Touch" class="submit-button" >
             Get In Touch
           </button>
+         
         </form>
       </div>
     </div>

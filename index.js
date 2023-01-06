@@ -1,9 +1,9 @@
 openNav = () => {
-  document.getElementById("myNav").style.width = "100%";
+  document.getElementById('myNav').style.width = '100%';
 };
 
 closeNav = () => {
-  document.getElementById("myNav").style.width = "0%";
+  document.getElementById('myNav').style.width = '0%';
 };
 const project = {
   name: 'portfolio',
@@ -14,12 +14,22 @@ const project = {
   sourceCode: 'https://github.com/EnixWord/My_Portfolio',
 };
 
-const buttonPopup = document.querySelector("button");
-const modalPopup = document.querySelector(".block-popup");
+const buttonPopup = document.querySelector('button');
+const modalPopup = document.querySelector('.block-popup');
 function Display() {
-  modalPopup.style.display = "block";
+  modalPopup.style.display = 'block';
 }
-
 function closePopup() {
-  modalPopup.style.display = "none";
+  modalPopup.style.display = 'none';
+}
+// ------------------contact form validation -----------------
+function validateEmail() {
+  const email = document.getElementById('email').value;
+  const error = document.getElementById('errorMessage');
+  if (email.toLowerCase() !== email) {
+    error.innerHTML = 'Please enter your email in lowercase';
+    return false;
+  }
+  document.getElementById('errorMessage').innerHTML = '';
+  return true;
 }
