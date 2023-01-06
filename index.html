@@ -3,10 +3,13 @@
 
 <head>
   <meta charset="UTF-8" />
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script type="text/javascript" src="index.js"></script>
   <link rel="stylesheet" href="style.css" />
+  
+  
+
   <title>Stev's Portfolio</title>
 </head>
 
@@ -16,6 +19,7 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 
       <div class="overlay-content">
+        <a href="#Intro" class="intro-text" onclick="closeNav()">Intro</a>
         <a href="#Portfolio" onclick="closeNav()">Portfolio</a>
         <a href="#About" class="about-text" onclick="closeNav()">About</a>
         <a href="#Contact" onclick="closeNav()">Contact</a>
@@ -39,8 +43,6 @@
             </li>
           </ul>
         </div>
-
-
         <nav class="nav-link">
 
           <div class="nav-menu">
@@ -54,7 +56,7 @@
     </header>
   </div>
   <main>
-    <section class="first-section">
+    <section class="first-section" id="Intro">
       <div class="major-container">
         <div class="minor-container">
           <div class="section-head">
@@ -128,7 +130,103 @@
               <li>javascript</li>
             </ul>
           </div>
-          <button>See Project</button>
+          <button onclick="Display()"> See Project</button>
+        </div>
+        <!-------------------------------------------POPUP SECTION---------------------------------------------------->
+        <div class="popup-container block-popup">
+          <div id="popup-modal" class="pop-content">
+            <div class="headline-popup">
+              <h1>Tonic</h1>
+              <a href="#" role="button"  onclick="closePopup()">
+                <div class="popup-clsbtn">x</div>
+                  </a>
+            </div>
+          </div>
+          <ul class="small-tags">
+            <li class="canopy-sm-tag">CANOPY</li>
+            <li>
+              <div class="round-popup"></div>
+            </li>
+            <li class="second-sm-tag">Back End Dev</li>
+            <li>
+              <div class="round-popup"></div>
+            </li>
+            <li class="second-sm-tag">2015</li>
+          </ul>
+          <div class="popup-image-container">
+            <img src="./images/Snapshoot Portfolio.png" alt="pop-image" />
+          </div>
+          <div class="popup-mobile-container">
+
+          </div>
+          <div class="buttom-content-container">
+            <div class="paragraph-description">
+              <p class="paragraph-description-desktop">
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and
+                scrambled it 1960s with the releaLorem Ipsum is simply
+                dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it 1960s with the releorem
+                Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum han printer took a
+                galley of type and scrambled it 1960s with the releawn
+                printer took a galley of type and scrambled it 1960s
+                with the releaLorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and
+                scrambled it 1960s with the relea
+              </p>
+              <p class="paragraph-description-mobile">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+
+              </p>
+            </div>
+            <div class="action-content">
+              <div class="popup-tags">
+                <ul class="first">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>javascript</li>
+                </ul>
+                <ul class="second">
+                  <li>github</li>
+                  <li>ruby</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
+              <div class="divider-popup">
+                <img src="./images/Vector 4.png" alt="Divider popup" />
+              </div>
+              <div class="popup-button-action">
+                <button type="submit">
+                  <div class="source-code">
+                    <a href="">See live </a>
+                  </div>
+                  <div class="deploy-icon">
+                    <img src="./images/deploy.svg" alt="deployment icon" class="deploy-icon-popup" />
+                  </div>
+                </button>
+                <button class="submit-github">
+                  <div class="live-version">
+                    <a href="">See Source </a>
+                  </div>
+                  <div class="github-img">
+                    <img src="./images/github-popup.svg" alt="github icon" class="github-icon-popup" />
+                  </div>
+                  
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -157,7 +255,7 @@
               <li>javascript</li>
             </ul>
           </div>
-          <button>See Project</button>
+          <button onclick="Display()">See Project</button>
         </div>
       </div>
 
@@ -186,7 +284,7 @@
               <li>javascript</li>
             </ul>
           </div>
-          <button>See Project</button>
+          <button onclick="Display()">See Project</button>
         </div>
       </div>
 
@@ -215,7 +313,7 @@
               <li>javascript</li>
             </ul>
           </div>
-          <button>See Project</button>
+          <button onclick="Display()">See Project</button>
         </div>
       </div>
     </div>
@@ -310,6 +408,9 @@
       </div>
     </div>
   </section>
+
+
+  <!--------------------------------------------END OF POP UP SECTION-------------------------------------->
   <section class="contact-form" id="Contact">
     <div class="contact-card">
       <div class="contact-me">
@@ -322,7 +423,7 @@
         </p>
       </div>
       <div class="contact-me-form">
-        <form class="form" action="https://formspree.io/f/myyayezp" method="post">
+        <form class="form" action="https://formspree.io/f/xnqyqbpl" method="post"   onsubmit="return validateEmail()">
           <div class="username-input">
             <label hidden id="mylabel" for="username">Username</label>
             <input type="text" name="username" class="input" placeholder="enter username" maxlength="30" required />
@@ -330,7 +431,7 @@
           <br />
           <div class="email-input">
             <label hidden id="mylabel" for="email">Email</label>
-            <input type="email" name="email" class="input" placeholder="enter email" size="64" maxlength="64"
+            <input type="email" name="email" class="input" placeholder="enter email" id="email" size="64" maxlength="64"
               required />
           </div>
           <br />
@@ -339,14 +440,18 @@
             <textarea name="message" type="text" class="input-textarea" cols="30" maxlength="500"
               placeholder="enter your message here" required></textarea>
           </div>
-          <button type="submit" value="Get In Touch" class="submit-button">
+          <div id="errorMessage" class="error-message">
+
+          </div>
+          <button type="submit" value="Get In Touch" class="submit-button" >
             Get In Touch
           </button>
+         
         </form>
       </div>
     </div>
   </section>
-
+  <script src="index.js"></script>
 </body>
 
 
