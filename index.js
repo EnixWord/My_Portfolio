@@ -52,3 +52,38 @@ window.onload = function storage() {
   email.addEventListener('input', saveToLocalStorage);
   textMessage.addEventListener('input', saveToLocalStorage);
 };
+
+// --------------------store the data collected in an object in the local storage--------------
+window.onload = function objectStorage() {
+  const fullName = document.getElementById('fullname');
+  const email = document.getElementById('email');
+  const textMessage = document.getElementById('message');
+
+  // Create an object to store the data
+  let data = {
+    fullName: '',
+    email: '',
+    textMessage: '',
+  };
+
+  // Retrieve data from local storage
+  data = JSON.parse(localStorage.getItem('formData')) || data;
+
+  // Set the values of the form elements to the retrieved data
+  fullName.value = data.fullName;
+  email.value = data.email;
+  textMessage.value = data.textMessage;
+
+  function saveToLocalStorage() {
+    // Update the data object with the values from the form elements
+    data.fullName = fullName.value;
+    data.email = email.value;
+    data.textMessage = textMessage.value;
+
+    // Save the data object to local storage
+    localStorage.setItem('formData', JSON.stringify(data));
+  }
+
+  // Store data when user changes an existing data
+  fullName.addEventListener('input', saveToLocalStorage);
+};
