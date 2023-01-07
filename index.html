@@ -102,8 +102,7 @@
       </main>
       </div>
       <section class="project-section" id="Portfolio">
-        <div class="project-container">
-          <!------------First card--------------->
+        <div class="project-container" id="workpage">
           <div class="project-card flex column">
             <img src="./images/Snapshoot Portfolio.svg" alt="project card image" />
             <div class="prject-card-info flex column">
@@ -130,104 +129,8 @@
               </div>
               <button onclick="Display()"> See Project</button>
             </div>
-            <!-------------------------------------------POPUP SECTION---------------------------------------------------->
-            <div class="popup-container block-popup">
-              <div id="popup-modal" class="pop-content">
-                <div class="headline-popup">
-                  <h1>Tonic</h1>
-                  <a href="#" role="button" onclick="closePopup()">
-                    <div class="popup-clsbtn">x</div>
-                  </a>
-                </div>
-              </div>
-              <ul class="small-tags">
-                <li class="canopy-sm-tag">CANOPY</li>
-                <li>
-                  <div class="round-popup"></div>
-                </li>
-                <li class="second-sm-tag">Back End Dev</li>
-                <li>
-                  <div class="round-popup"></div>
-                </li>
-                <li class="second-sm-tag">2015</li>
-              </ul>
-              <div class="popup-image-container">
-                <img src="./images/Snapshoot Portfolio.png" alt="pop-image" />
-              </div>
-              <div class="popup-mobile-container">
-    
-              </div>
-              <div class="buttom-content-container">
-                <div class="paragraph-description">
-                  <p class="paragraph-description-desktop">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the
-                    industry's standard text ever since the 1500s,
-                    when an unknown printer took a galley of type and
-                    scrambled it 1960s with the releaLorem Ipsum is simply
-                    dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it 1960s with the releorem
-                    Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum han printer took a
-                    galley of type and scrambled it 1960s with the releawn
-                    printer took a galley of type and scrambled it 1960s
-                    with the releaLorem Ipsum is simply dummy text of the
-                    printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and
-                    scrambled it 1960s with the relea
-                  </p>
-                  <p class="paragraph-description-mobile">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                    specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
-    
-                  </p>
-                </div>
-                <div class="action-content">
-                  <div class="popup-tags">
-                    <ul class="first">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>javascript</li>
-                    </ul>
-                    <ul class="second">
-                      <li>github</li>
-                      <li>ruby</li>
-                      <li>Bootstrap</li>
-                    </ul>
-                  </div>
-                  <div class="divider-popup">
-                    <img src="./images/Vector 4.png" alt="Divider popup" />
-                  </div>
-                  <div class="popup-button-action">
-                    <button type="submit">
-                      <div class="source-code">
-                        <a href="">See live </a>
-                      </div>
-                      <div class="deploy-icon">
-                        <img src="./images/deploy.svg" alt="deployment icon" class="deploy-icon-popup" />
-                      </div>
-                    </button>
-                    <button class="submit-github">
-                      <div class="live-version">
-                        <a href="">See Source </a>
-                      </div>
-                      <div class="github-img">
-                        <img src="./images/github-popup.svg" alt="github icon" class="github-icon-popup" />
-                      </div>
-    
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-          <!-----------second card---------------->
+          
           <div class="project-card flex column">
             <img class="order-2" src="./images/Snapshoot Portfolio (1).svg" alt="project card image" />
             <div class="prject-card-info flex column">
@@ -256,7 +159,7 @@
               <button onclick="Display()">See Project</button>
             </div>
           </div>
-          <!-------------Third card-------------->
+          
           <div class="project-card flex">
             <img src="./images/Snapshoot Portfolio (2).svg" alt="project card image" />
             <div class="prject-card-info flex column">
@@ -285,7 +188,7 @@
               <button onclick="Display()">See Project</button>
             </div>
           </div>
-          <!------------forth card--------------->
+          
           <div class="project-card flex">
             <img class="order-2" src="./images/Snapshoot Portfolio (3).svg" alt="project card image" />
             <div class="prject-card-info flex column">
@@ -314,7 +217,7 @@
               <button onclick="Display()">See Project</button>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
       <section id="about" class="about">
         <div class="about-container flex column">
@@ -407,8 +310,6 @@
         </div>
       </section>
     
-    
-      <!--------------------------------------------END OF POP UP SECTION-------------------------------------->
       <section class="contact-form" id="Contact">
         <div class="contact-card">
           <div class="contact-me">
@@ -450,6 +351,89 @@
         </div>
       </section>
     </div>
+
+     <div class="modal" id="modal1">
+        <div id="popup-modal" class="pop-content">
+          <div class="headline-popup">
+            <h1>Tonic</h1>
+            <a href="#" role="button" onclick="closePopup()">
+              <div class="popup-clsbtn">x</div>
+            </a>
+          </div>
+        </div>
+        <ul class="small-tags">
+          <li class="canopy-sm-tag">CANOPY</li>
+          <li>
+            <div class="round-popup"></div>
+          </li>
+          <li class="second-sm-tag">Back End Dev</li>
+          <li>
+            <div class="round-popup"></div>
+          </li>
+          <li class="second-sm-tag">2015</li>
+        </ul>
+        <div class="popup-image-container">
+          <img src="./images/Snapshoot Portfolio.png" alt="pop-image" />
+        </div>
+        <div class="popup-mobile-container">
+  
+        </div>
+        <div class="buttom-content-container">
+          <div class="paragraph-description">
+            <p class="paragraph-description-desktop">
+              Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the
+              industry's standard text ever since the 1500s,
+              when an unknown printer took a galley of type and
+              scrambled it 1960s with the releaLorem Ipsum is simply
+              dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it 1960s with the releorem
+              Ipsum is simply dummy text of the printing and
+              typesetting industry. 
+            </p>
+          </div>
+          <div class="action-content">
+            <div class="popup-tags">
+              <ul class="first">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>javascript</li>
+              </ul>
+              <ul class="second">
+                <li>github</li>
+                <li>ruby</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="divider-popup">
+              <img src="./images/Vector 4.png" alt="Divider popup" />
+            </div>
+            <div class="popup-button-action">
+              <button type="submit">
+                <div class="source-code">
+                  <a href="">See live </a>
+                </div>
+                <div class="deploy-icon">
+                  <img src="./images/deploy.svg" alt="deployment icon" class="deploy-icon-popup" />
+                </div>
+              </button>
+              <button class="submit-github">
+                <div class="live-version">
+                  <a href="">See Source </a>
+                </div>
+                <div class="github-img">
+                  <img src="./images/github-popup.svg" alt="github icon" class="github-icon-popup" />
+                </div>
+  
+              </button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+     </div>
+     
 
     <script src="index.js"></script>
   </body>
