@@ -104,3 +104,18 @@ window.onload = function objectStorage() {
   // Store data when user changes an existing data
   fullName.addEventListener('input', saveToLocalStorage);
 };
+const Background = document.querySelector('.works');
+function Display() {
+  modalPopup.style.display = 'block';
+  Background.style.opacity = '0.8';
+  Background.style.backgroundColor = '#C1C7D0';
+  Background.style.backdropFilter = 'blur(10px)';
+  Background.style.mixBlendMode = 'multiply';
+}
+function closePopup() {
+  modalPopup.style.display = 'none';
+  Background.style.opacity = '1';
+  Background.style.backgroundColor = '#E5E5E5';
+  Background.style.backdropFilter = 'none';
+  Background.style.mixBlendMode = 'normal';
+}
