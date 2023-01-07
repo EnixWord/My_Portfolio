@@ -26,6 +26,7 @@ function closePopup() {
 }
 buttonPopup.addEventListener('click', Display);
 closeButton.addEventListener('click', closePopup);
+
 // ---------------------------Contact form validation---------------------
 const formContact = document.getElementById('form');
 
