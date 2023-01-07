@@ -1,10 +1,11 @@
-// const openNav = () => {
-//   document.getElementById('myNav').style.width = '100%';
-// };
+/* eslint-disable no-unused-vars */
+const openNav = () => {
+  document.getElementById('myNav').style.width = '100%';
+};
 
-// const closeNav = () => {
-//   document.getElementById('myNav').style.width = '0%';
-// };
+const closeNav = () => {
+  document.getElementById('myNav').style.width = '0%';
+};
 const projects = [
   {
     name: 'Tonic',
