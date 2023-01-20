@@ -573,7 +573,7 @@ span {
   color: #6070ff;
 }
 
-.contact-card {
+.contact-form {
   display: flex;
   flex-direction: column;
   background-image: url(./images/contact-bg2.png);
@@ -1026,7 +1026,7 @@ span {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .contact-card {
+  .contact-form {
     display: flex;
     flex-direction: column;
     width: 100%;
